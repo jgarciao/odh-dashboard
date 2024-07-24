@@ -27,7 +27,7 @@ spec:
       serviceAccount: odh-dashboard
       containers:
         - name: odh-dashboard
-          image: $(odh-dashboard-image)
+          image: quay.io/pnaik/rhoai-rhtap-poc:2.13
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
